@@ -23,9 +23,7 @@
 
 .about-box .txt-box {
     text-align: center;
-    height: 140px;
     padding: 30px;
-    overflow: scroll;
 }
 
 .about-box .txt-box p:nth-child(3) {
