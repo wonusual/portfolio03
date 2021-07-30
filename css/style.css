@@ -5,9 +5,8 @@
 }
 
 body {
-    min-width: 100vw;
+    max-width: 100vw;
     min-height: 100vh;
-    overflow: hidden scroll;
 }
 
 ul,
@@ -101,9 +100,7 @@ header {
 .hamburg > span:nth-child(3) {
     width: 15px;
     margin-left: 7px;
-
 }
-
 
 .hamburg.active > span:nth-child(1) {
     width: 22px;
@@ -361,7 +358,7 @@ header {
 }
 
 .slide {
-    min-width: 1024px;
+    width: 100%;
     height: 100vh;
     position: fixed;
     margin-top: 54px;
@@ -369,7 +366,6 @@ header {
 
 
 .slide img {
-    width: 100%;
     height: 100%;
 }
 
@@ -408,12 +404,10 @@ footer > p:first-child {
 
 /*flexible*/
 @media screen and (min-width: 320px) {
-
     .mob-img {
         display: block;
-        width: 100vw;
+        width: 100%;
         position: relative;
-        overflow: scroll;
     }
 
 
@@ -469,7 +463,6 @@ footer > p:first-child {
 }
 
 @media screen and (min-width: 1024px) {
-
     .main-menu,
     .side-menu {
         display: block;
